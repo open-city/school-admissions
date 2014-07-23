@@ -1,4 +1,8 @@
 school-admissions
 =================
+We are trying to understand how families discover, apply and enroll in their school. We want to help families and students easily get the school information they want, in a way that they understand. We will enable them to discover their school options and to more easily apply to schools.
 
-School selection and admissions project
+We will share what we’ve learned about what parents are looking for, how they feel about the process, and the options or lack of options. 
+
+
+Right now we are working on Phase I, understanding the diversity of application process. 
