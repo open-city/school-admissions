@@ -3,6 +3,7 @@
 We will use 
 * Python for server side processes and data transformation
 * Javascript for client code
+* For web frameworks we will either use flask, or Django
 
 # Databases
 If we can get away with it, we'll use sqlite, if we need more performance we'll use PostGreSQL
