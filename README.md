@@ -6,3 +6,7 @@ We will share what we’ve learned about what parents are looking for, how they 
 
 
 Right now we are working on Phase I, understanding the diversity of application process. 
+
+We have an e-mail list here: https://groups.google.com/forum/#!forum/cps-school-admissions
+
+and share documents here: https://drive.google.com/open?id=1-gGVAm33jJaKdUUCNy-eQzXYQarrtMgFiAp9QuDsqLE&authuser=0
