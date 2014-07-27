@@ -9,4 +9,4 @@ Right now we are working on Phase I, understanding the diversity of application 
 
 We have an e-mail list here: https://groups.google.com/forum/#!forum/cps-school-admissions
 
-and share documents here: https://drive.google.com/open?id=1-gGVAm33jJaKdUUCNy-eQzXYQarrtMgFiAp9QuDsqLE&authuser=0
+and share documents here: https://drive.google.com/folderview?id=0BwPsV5HvDYoMaEVVRlFDUVV2ZEU&usp=sharing
