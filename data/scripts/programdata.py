@@ -18,7 +18,7 @@ with open('rows.csv_accessType=DOWNLOAD') as school_file, open('programs.csv', '
   for row in reader :
     school_id = row['SchoolID']
     for program in row['ProgramTypes'].split('||')[:-1]:
-      if row['School Category'] == 'HS' and row['Governanace'] == 'District'\
+      if row['School Category'] == 'HS' and row['Governance'] == 'District'\
           and program == 'NA':
           writer.writerow((program_id, 'Neighborhood', school_id))
       else:
