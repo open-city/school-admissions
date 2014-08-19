@@ -4,4 +4,6 @@
 
 ### CPS - Centrally managed programs
 * data: https://docs.google.com/spreadsheets/d/1Zi4Ot-yLGOOWw5wfj5iIelLoIIaTaHbHjM1A6D3hUbU/edit#gid=0
+* csv: https://docs.google.com/spreadsheets/d/1Zi4Ot-yLGOOWw5wfj5iIelLoIIaTaHbHjM1A6D3hUbU/export?format=csv
 * Source: http://www.cpsoae.org/Glossary_%20Appendix_%20and%20Index%20--%20English.pdf
+
