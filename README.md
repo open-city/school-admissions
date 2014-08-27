@@ -16,3 +16,27 @@ We have an e-mail list [here](https://groups.google.com/forum/#!forum/cps-school
 We meet up every Tuesday at [Open Gov Hack Night](http://opengovhacknight.org/)
 
 If you're new to github, worry not! We'll show you around
+
+---
+
+<img src="https://docs.google.com/drawings/d/1HkDaOedilrC-B6oenq5NOjkKk-nJ8D5yY9A-v1OPx0k/pub?w=960&amp;h=720">
+
+---
+
+<img src="https://docs.google.com/drawings/d/1t8YRf9gZjgDL7mbPikXmByVhyNU2a90jqXNMySBGf5k/pub?w=960&amp;h=452">
+
+---
+
+<img src="https://docs.google.com/drawings/d/1DKjZyQbA2Vuw2sHjPPvBGZ4GG_izLLcS0UXuXBwC93c/pub?w=964&amp;h=588">
+
+---
+
+<img src="https://docs.google.com/drawings/d/1sakplkF-Bv3vTNVtUS7Yv2ySOwVyRf6-I5RqHqvfxlo/pub?w=960&amp;h=720">
+
+---
+
+<img src="https://docs.google.com/drawings/d/1sakplkF-Bv3vTNVtUS7Yv2ySOwVyRf6-I5RqHqvfxlo/pub?w=961&amp;h=583">
+
+---
+
+<img src="https://docs.google.com/drawings/d/1Rg3OrF28tLWnMae834BAjGbwmEo28ftWPRQSCegdcFQ/pub?w=960&amp;h=606">
