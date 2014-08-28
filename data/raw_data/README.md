@@ -7,3 +7,6 @@
 * csv: https://docs.google.com/spreadsheets/d/1Zi4Ot-yLGOOWw5wfj5iIelLoIIaTaHbHjM1A6D3hUbU/export?format=csv
 * Source: http://www.cpsoae.org/Glossary_%20Appendix_%20and%20Index%20--%20English.pdf
 
+### Admissions data
+* Currently waiting on a feeler FOIA request for the admission data (admission rates for each program in each school, breakdowns by tier, etc.) for just South Side College Prep, but considering CPS's record on FOIA responses, it's not likely much will come of that
+* Contacted Kylie Klein (kklein@cps.k12.il.us) as well as the research office proper (research@cps.k12.il.us) requesting data as well; may take some time for a response. According to the <a href="http://www.cps.edu/research/Pages/Research.aspx">research office website</a>, it may be necessary to file a formal research request eventually.
