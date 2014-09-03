@@ -17,7 +17,7 @@ We meet up every Tuesday at [Open Gov Hack Night](http://opengovhacknight.org/)
 
 If you're new to github, worry not! We'll show you around
 
-Current website concept mockups:
+### Current website concept mockups:
 
 ---
 
