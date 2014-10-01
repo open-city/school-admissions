@@ -20,6 +20,10 @@ if __name__ == "__main__":
     except IndexError:
         print 'You need to supply the name of a skim file'
         sys.exit()
+    try:
+        start_idx = int(sys.argv[2])
+    except IndexError:
+        start_idx = 4
     fpath = join(data_dir, source_file)
     time_col = time_fields[source_file]
     fields = [
@@ -31,7 +35,7 @@ if __name__ == "__main__":
     conn = engine.connect()
     source_const = ''
     with open(fpath, 'rU') as f:
-        [f.next() for i in range(4)]
+        [f.next() for i in range(start_idx)]
         for line in f:
             parts = line.strip().split(' ')
             source = parts[0]

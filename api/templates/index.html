@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block title %}School Transit{% endblock %}
+{% block extra_styles %}
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <style>
+        #map {height: 300px;}
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-8">
+            <div id="map"></div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel" id="schools-table">
+                <table role="table">
+                    <thead>
+                        <tr>
+                            <th>School Name</th>
+                            <th>School Address</th>
+                            <th>Travel Time</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block extra_javascript %}
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var map = L.map('map').fitBounds(
+              [
+                [41.644286009999995, -87.94010087999999],
+                [42.023134979999995, -87.52366115999999]
+              ]
+            )
+            L.tileLayer('http://{s}.tiles.mapbox.com/v3/datamade.hn83a654/{z}/{x}/{y}.png').addTo(map);
+            map.on('click', onClick);
+        })
+        function onClick(e){
+            var lat = e.latlng.lat;
+            var lng = e.latlng.lng;
+            var start = lat + ',' + lng
+            $.when($.getJSON('/matrix/', {'start': start})).then(
+                function(resp){
+                    var items = ''
+                    $.each(resp.objects, function(i, school){
+                        items += '<tr>';
+                        items += '<td>' + school.school_name + '</td>';
+                        items += '<td>' + school.address + '</td>';
+                        var tt = school.in_vehicle_time + school.walk_transfer_time + (school.wait_time / 2);
+                        items += '<td>' + tt + '</td>';
+                        items += '</tr>';
+                    })
+                    $('table tbody').html(items);
+                }
+            )
+        }
+    </script>
+{% endblock %}
