@@ -5,8 +5,6 @@ from api.database import engine, session
 from api.models import SourceDest
 from sqlalchemy.exc import IntegrityError
 
-data_dir = abspath(join('data', 'raw_data', 'transitskims100'))
-
 time_fields = {
     'mf22.txt': 'in_vehicle_time', 
     'mf23.txt': 'walk_transfer_time', 
@@ -24,7 +22,6 @@ if __name__ == "__main__":
         start_idx = int(sys.argv[2])
     except IndexError:
         start_idx = 4
-    fpath = join(data_dir, source_file)
     time_col = time_fields[source_file]
     fields = [
         'source', 
@@ -34,7 +31,7 @@ if __name__ == "__main__":
     table = SourceDest.__table__
     conn = engine.connect()
     source_const = ''
-    with open(fpath, 'rU') as f:
+    with open(source_file, 'rU') as f:
         [f.next() for i in range(start_idx)]
         for line in f:
             parts = line.strip().split(' ')
